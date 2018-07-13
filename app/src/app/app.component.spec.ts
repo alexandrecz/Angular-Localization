@@ -60,14 +60,18 @@ describe('AppComponent', () => {
         }
     }
 
-    app.setCulture('us');
+    app.resolveCulture('us');
     expect(expectedCulture).toEqual('us');
 
-    app.setCulture('pt');
+    app.resolveCulture('de');
+    expect(expectedCulture).toEqual('de');
+
+    app.resolveCulture('pt');
     expect(expectedCulture).toEqual('us');
 
-    app.setCulture(' ');
+    app.resolveCulture('');
     expect(expectedCulture).toEqual('us');
+
   }));
 
 });
