@@ -1,0 +1,6 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  background: radial-gradient(ellipse at center, #f5f5f5 0%,#ddd 100%);
+}

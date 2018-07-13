@@ -1,0 +1,10 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.nav a:hover, nav a:active {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+  transition: border-bottom 0.2s;
+}

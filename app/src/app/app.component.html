@@ -1,0 +1,8 @@
+<div class="wrapper">
+  <router-outlet></router-outlet>
+  <nav class="nav">
+    <a (click)="useLanguage(actionLeft.action)">{{ actionLeft.text }}</a>
+    |
+    <a (click)="useLanguage(actionRight.action)">{{ actionRight.text }}</a>
+  </nav>
+</div>
